@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./estilo.css">
+  <link rel="stylesheet" href="./contacto.css">
   <title>Mateo Zivano</title>
 </head>
 
@@ -37,10 +38,34 @@
 
 
   <section>
-    <h2>Contacto</h2>
-    <div class="textoImg">
-      
-    </div>
+    
+    <h2 class="h2Contacto">Contacto</h2>
+
+    <div class="container">  
+        <form id="contact" action="" method="post">
+          <h3>Formulario de contacto</h3>
+          <h4>Complete los datos y envíe su mensaje</h4>
+          <fieldset>
+            <input placeholder="Nombre" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Correo electrónico" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Teléfono celular" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Tu página web (opcional)" type="url" tabindex="4">
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Escriba su mensaje o consulta" tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="¡Mensaje enviado!">Enviar</button>
+          </fieldset>
+          
+        </form>
+      </div>
   </section>
 
 
@@ -48,6 +73,7 @@
     <div class="textFooter">
     <p>Mateo Zivano, desarrolador front-end</p>
     <p>Esta página fue realizada con fines educativos</p>
+    <p><a class="linkedin" href="https://www.linkedin.com/in/mateo-zivano/">LinkedIn</a></p>
   </div>
   </footer>
 </body>
